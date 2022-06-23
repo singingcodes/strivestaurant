@@ -24,5 +24,5 @@ export interface Comment {
     rating:  number;
     comment: string;
     author:  string;
-    date:    Date;
+    date:    Date | string;
 }
